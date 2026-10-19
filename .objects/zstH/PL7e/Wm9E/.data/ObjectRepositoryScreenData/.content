@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="ednAVXsqrEKL72jb8vriIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGuSURBVDhPlZM9SxxRFIanN4WFFgnkL4gE7C0ikSiaNFYiYlKJpAqCSRMlYBHFIilUEC0DKYKgYKc7ErKKuBIiZtfdfPix+BndXXadmb33PuHOuqPjzkB84VbnnOec9957DMMwDMAEJP8vnWvq2nJxiNTlCZWpAcGdlQDrBJwMqFCI1IBK6eJCGuLvYOcj2H9BBfcJBjhZSE3C1w5Y7YL0PAjrZparYIAqQv43bA5CaqJk5VYTaIZjI462EWdplBA3w54CAdKyycbibPWOkHw1TuFXOKQCoIQkn9hlrbGPxaqHLFU/YvPZMPbBaeBr+AEKnNMMiZcfiNQ8Jtbaz8qDHsy7bexPzyPyF750LR9Aj374OYJ5r51ofTeZtR8cz31h+f5TonVdZNfjFVY8gJJ69B1WGp4TqW1hb3IWWbDcieIvxlwr3zuHsI/0n7iy4gGK5zm2ekdZvNPExpMBrLR+uhI49y3pTrBU3exakRe2DyA10T4+4+fbGVJvpsjGEu5lliUth5OFKMnXE/x5/4liruCFvGXSnXSiPteLy1JFUYrbznULvo2srAqXt87/ABvBr69+TL+1AAAAAElFTkSuQmCC" Selector="&lt;html app='msedge.exe' title='Electronice si electrocasnice online la cel mai mic pret' /&gt;" Url="https://altex.ro/home/" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="2449caa79309e6dc88323c4d52b451df.jpg" xmlns="">0rzdwTsYmDU-Y6rVxINAX-w</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

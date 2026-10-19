@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YjA5_8Cqq0mfo7SKLkji1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="altex.ro/cauta" DesignTimeRectangle="497, 635, 291, 573" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div' parentid='__next' tag='DIV' /&gt;" Guid="f02954d5-4137-40e5-a682-7a3a6518eea6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='solid state drive kingston a400 240gb - ALTEX' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="906a89cd3b8c099db8e658cbca977714.png" xmlns="">0Rs3YHov_uk6RdruYuT5NVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

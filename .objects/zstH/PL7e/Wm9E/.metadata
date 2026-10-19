@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Electronice si electrocasnice online la ",
+  "Type": "Screen",
+  "Id": "Wm9E6rEzBkC5wFgrHwj4dQ",
+  "Reference": "Anefho2HdEmV084iFinhKQ/Wm9E6rEzBkC5wFgrHwj4dQ",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/PL7e2aqRY0Ow8jDuNZnyfw",
+  "Created": "2025-08-25T23:09:07.0123096Z",
+  "Updated": "2025-08-25T23:09:07.0123096Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

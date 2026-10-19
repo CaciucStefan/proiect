@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="prBPHO9qn0OPB8Ty_kiVqg" Reference="Anefho2HdEmV084iFinhKQ/6CScAOmnWUGKckXHIQAsfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vexio.ro/search" CVScreenId="17c1216c-cb11-4b19-9082-45136931766c" CvType="AnyWordGroup" DesignTimeRectangle="165, 59, 1498, 35" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Cauta produse: Logitech G305 - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzyAccuracy="0.57" FuzzySelectorArgument="&lt;ctrl name='Cauta produse: Logitech G305 - Microsoft Edge' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="a86ca1a2-70fe-426c-8d1f-1d56d170f52d" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Cauta produse: Logitech G305 - Profile 1 - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="17c1216c-cb11-4b19-9082-45136931766c" CvElementArea="126, 62, 31, 27" CvType="ArrowButton" DesignTimeRectangle="126, 59, 30, 35" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Cauta produse: Logitech G305 - Microsoft Edge' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='View site information' role='menu button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='View site information' /&gt;" Guid="2b45c275-1634-4856-b2de-5a726943acbc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e58b70ab2b4dec3f3391fe2816a0fb52.png" xmlns="">0llA6UE02LEaw3sxt9HNuOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="risN6pGcVEiLi5TfST1pLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vexio.ro/search" CVScreenId="fab3d58c-28ca-447b-b349-33c492a4e61f" CvType="AnyWordGroup" DesignTimeRectangle="559, 986, 100, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;230.99 lei &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_324453' tag='SPAN' /&gt;" FuzzyAccuracy="0.75" Guid="11f106c2-50b8-495b-bd17-1e7f568d9f2d" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: Logitech G305' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fab3d58c-28ca-447b-b349-33c492a4e61f" CvTextArea="547, 579, 145, 22" CvTextArgument="Sortează după:" CvType="Text" DesignTimeRectangle="549, 574, 144, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' type='' aaname='Sortează după: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sortează după:' /&gt;" Guid="e5d813a7-dc69-4cd6-bc74-426d85039c9e" SearchSteps="Selector, FuzzySelector, CV" />
+          <Target CVScreenId="fab3d58c-28ca-447b-b349-33c492a4e61f" CvTextArea="846, 987, 102, 20" CvTextArgument="229.99 lei" CvType="Text" DesignTimeRectangle="849, 982, 100, 34" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;article&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='product_box_746841' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='product_box_746841' tag='DIV' class='price-value text-left inline-block' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='229.99 lei' /&gt;" Guid="4cdbe4be-388d-43bf-a0d4-3411151798f1" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6dabbb0909a4b1ce46ee39e6544244c8.png" xmlns="">0NrCHjn05FUyWVC7SRPH-zQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

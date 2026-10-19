@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DgC4DJZZGE61UOvxlScETw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emag.ro/search/%20SSD%20KINGSTON%20A400%20120GB" DesignTimeRectangle="523, 874, 268, 71" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Solid State Drive (SSD) Kingston A400, 960GB, 2.5&amp;quot;, SATA III' parentid='card_grid' tag='A' /&gt;" Guid="66b63b54-fb97-40a6-9859-ade881e6d035" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eMAG.ro - Căutarea nu se oprește niciodată' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0ba100d41e792372fcbc961e59f27b39.png" xmlns="">0WptA06G03UqC1tU8EzQUgg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

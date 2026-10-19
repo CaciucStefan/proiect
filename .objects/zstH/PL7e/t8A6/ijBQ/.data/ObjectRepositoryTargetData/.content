@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Le30PjNK6UGkYkPZlfMAuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="a97d64d4-5aba-4d6c-aee4-f977af2321b8" CvElementArea="461, 640, 34, 34" CvType="Button" DesignTimeRectangle="464, 642, 30, 30" FullSelectorArgument="&lt;webctrl idx='2' parentid=':95' tag='SPAN' /&gt;" Guid="3c3a7cc0-be8c-45ad-955c-2bcfc5483c26" ScopeSelectorArgument="&lt;html app='msedge.exe' title='proiect - ndnu861@gmail.com - Gmail' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2e25974de791e5c28c486ed27aea2e5c.png" xmlns="">0eKw9MFqXVky1wNuEpJ9RJA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

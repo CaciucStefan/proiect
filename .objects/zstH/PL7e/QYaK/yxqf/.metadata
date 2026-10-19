@@ -1,0 +1,14 @@
+﻿{
+  "Name": "httpswww.emag.romou…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "yxqf_voVokiRup5Xovey3g",
+  "Reference": "Anefho2HdEmV084iFinhKQ/yxqf_voVokiRup5Xovey3g",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/QYaKi0IkAka1H7LzlMS-zA",
+  "Created": "2025-10-02T20:04:35.0127089Z",
+  "Updated": "2025-10-02T20:04:35.0127089Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

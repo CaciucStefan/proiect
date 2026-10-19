@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Logitech Mouse G305 Lig…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZOLcLWivzEy6f94oPeqMWg",
+  "Reference": "Anefho2HdEmV084iFinhKQ/ZOLcLWivzEy6f94oPeqMWg",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/dXDKSy048UO8MX4EYxIbzA",
+  "Created": "2025-10-01T15:06:45.7562184Z",
+  "Updated": "2025-10-01T15:06:45.7562184Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lCVDG3xTAk6MfVxg_5USog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="7bfb875f-8fa3-47a7-8350-0fce3400a16c" CvElementArea="679, 410, 207, 42" CvTextArea="725, 424, 137, 20" CvTextArgument="InputRobotPrac..." CvType="Button" DesignTimeRectangle="727, 420, 140, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-role='grid' parentid='32' tag='TABLE' /&gt;&lt;webctrl class='brg' tableRow='1' tag='SPAN' /&gt;" Guid="996d96c2-0dcc-44f2-b7e8-38e0db47afef" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Search results - ndnu861@gmail.com - Gmail' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7bfb875f-8fa3-47a7-8350-0fce3400a16c" CvTextArea="682, 384, 38, 15" CvTextArgument="Inbox" CvType="Text" DesignTimeRectangle="679, 381, 47, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='grid' parentid='32' tag='TABLE' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl class='av' type='' tag='DIV' aaname='Inbox' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Inbox' /&gt;" Guid="2527f6b6-2817-47e2-8f4e-8a1d3d9115bb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="49131f588dd03f307b188287a099a593.png" xmlns="">05CieRrr5AEyZw-Ue7rqtAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3b78jQrJVk-0F_N40TAYYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vexio.ro" CVScreenId="5a7680a3-e2dd-40ac-afc1-18d8b37d43c6" CvElementArea="662, 257, 550, 51" CvType="InputBox" DesignTimeRectangle="665, 261, 478, 43" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-box' tag='INPUT' /&gt;" Guid="3ecdaf8b-d190-427b-9eed-f59c6bd3c5f6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Vexio - Online, mereu mai ieftin! Peste 350.000 de produse pe site!' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6c92ba58983cf8f8fbf0e1e8a9f9f3ca.png" xmlns="">0dakMYE81zEiM18VtapCElw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

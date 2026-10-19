@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3Oaqd2E9JUCSBryoSEVKXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emag.ro" CVScreenId="1e6c67d3-00ba-490d-b6c1-2e3c87d47176" CvElementArea="398, 113, 764, 48" CvType="InputBox" DesignTimeRectangle="1109, 114, 53, 45" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                     Caută                                      ' tag='BUTTON' /&gt;" Guid="be45efa1-1367-4b2b-8909-dac3d638a2c3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eMAG.ro - Căutarea nu se oprește niciodată' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="839ee76f740293f34faf8b1c5ed23715.png" xmlns="">0jzdPXbHzDkmy7wI41W9CQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

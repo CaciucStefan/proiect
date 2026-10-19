@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2PU5es3V5kW7rZ__gDsFyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emag.ro" CVScreenId="30197390-004b-473b-b1f8-be5043160395" CvElementArea="398, 113, 764, 48" CvType="InputBox" DesignTimeRectangle="1124, 126, 23, 22" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;nav&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;i' idx='2' parentid='masthead' tag='I' /&gt;" Guid="11baa5a1-a0d9-4709-84ba-e887e381c175" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eMAG.ro - Căutarea nu se oprește niciodată' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="16b8ccb412fe9e9ed73a68da69161f62.png" xmlns="">0PE6F-zv9Dkak63rBWNwRjw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

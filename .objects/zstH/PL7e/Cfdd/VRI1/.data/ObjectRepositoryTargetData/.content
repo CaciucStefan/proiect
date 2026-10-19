@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_OnApLZkSESbwVlC5e2WJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emag.ro" CVScreenId="b0c80101-c7fe-4227-8809-4e3edb1193e3" CvElementArea="398, 112, 764, 49" CvType="InputBox" DesignTimeRectangle="419, 115, 706, 43" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='searchboxTrigger' tag='INPUT' /&gt;" Guid="56c99d46-6207-4e8b-8ac6-92ebdc0432f4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='eMAG.ro - Căutarea nu se oprește niciodată' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0bc7fe05b90173bd694b8da1c954a5f5.png" xmlns="">0s7z056Ioqk6_tmNZcrUHSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

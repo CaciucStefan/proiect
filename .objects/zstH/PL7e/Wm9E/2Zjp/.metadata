@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Solid-State Drive (SSD)…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "2Zjpf4Y9VUO3hvf_VM64og",
+  "Reference": "Anefho2HdEmV084iFinhKQ/2Zjpf4Y9VUO3hvf_VM64og",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/Wm9E6rEzBkC5wFgrHwj4dQ",
+  "Created": "2025-08-28T08:30:48.4524644Z",
+  "Updated": "2025-08-28T08:30:48.4524644Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

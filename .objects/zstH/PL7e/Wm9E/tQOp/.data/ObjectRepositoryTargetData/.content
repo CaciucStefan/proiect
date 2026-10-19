@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NBbV01jRL0OHCUl6JZ4fqQ" Reference="Anefho2HdEmV084iFinhKQ/tQOpPGxFFkmaB8xkPEZedQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="altex.ro/solid-state-drive-ssd-kingston-a400-480gb-sata3-2-5-sa400s37-480g/cpd/SSDSA400S37480G" CVScreenId="8d95d06b-2a31-45a2-a7c1-b7ca3dee6316" CvElementArea="99, 55, 1572, 41" CvType="InputBox" DesignTimeRectangle="146, 59, 1417, 35" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="45e955bb-f124-471e-a6fd-d3642c6706ae" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8d95d06b-2a31-45a2-a7c1-b7ca3dee6316" CvElementArea="99, 55, 1572, 41" CvType="InputBox" DesignTimeRectangle="114, 59, 30, 35" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='View site information' role='menu button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='View site information' /&gt;" Guid="05fb5797-cab0-4c8b-9a5a-d5e9c146d4d9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="798ab5f6c39a17bbe46818650f70a9e8.png" xmlns="">0zjpQuOiv-UOgGPT2A7j5aQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

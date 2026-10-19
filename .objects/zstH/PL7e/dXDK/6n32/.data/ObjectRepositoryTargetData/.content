@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wiWpMaBOt0SGSPKGeNQ09w" Reference="Anefho2HdEmV084iFinhKQ/6n32S-Sgp0ySc0SPToKpkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vexio.ro/search" CVScreenId="9892bc92-f868-4ed4-b4a6-b77e5990df34" DesignTimeRectangle="559, 986, 100, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;159.99 lei &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_331625' tag='SPAN' /&gt;" Guid="da0da736-4a30-4f41-aed7-445c514c1737" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: SSD ADATA SU630 480GB' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="147925524a0c4de62a6754164e2a7a4c.png" xmlns="">0fuCY523bE0mclBo6tHWHQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

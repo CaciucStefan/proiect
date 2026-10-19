@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Edge Vexio - Online, mereu mai ieftin! Peste",
+  "Type": "Screen",
+  "Id": "TRkiQSACD0q61ZR7uMs9iA",
+  "Reference": "Anefho2HdEmV084iFinhKQ/TRkiQSACD0q61ZR7uMs9iA",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/PL7e2aqRY0Ow8jDuNZnyfw",
+  "Created": "2025-07-14T11:49:01.7070555Z",
+  "Updated": "2025-08-25T22:17:14.1710693Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

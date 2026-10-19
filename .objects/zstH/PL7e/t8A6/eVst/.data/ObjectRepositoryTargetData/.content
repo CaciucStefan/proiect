@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jvMJBhssRkCxfwyrF71MIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="01430899-e930-4951-8957-db1621a7d307" CvTextArea="427, 386, 26, 13" CvTextArgument="me" CvType="Text" DesignTimeRectangle="429, 380, 210, 25" FullSelectorArgument="&lt;webctrl aria-role='grid' parentid='113' tag='TABLE' /&gt;&lt;webctrl id=':71' tableRow='1' tag='DIV' /&gt;" Guid="52a74232-1e65-420c-96b8-45efbe4ed8e2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Search results - ndnu861@gmail.com - Gmail' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="daf67c0c4b9d3fb49bb88815193a7f68.png" xmlns="">0afUOkb5rgU6YcDoVDQ2Cpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8exIBdgpGU-7tofDL_FrDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vexio.ro/search" DesignTimeRectangle="559, 816, 246, 56" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='product_box_324453' tag='H2' /&gt;" FuzzyAccuracy="0.71" FuzzySelectorArgument="&lt;webctrl parentid='product_box_324453' tag='H2' type='' class='h5 name' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cceddd6d-1587-414f-8d06-fecb9c783a95" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: Logitech G305' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9a882cbf-f086-498d-926e-83dd20f16455" CvTextArea="547, 579, 145, 22" CvTextArgument="Sortează după:" CvType="Text" DesignTimeRectangle="549, 574, 144, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' type='' aaname='Sortează după: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sortează după:' /&gt;" Guid="51cb5a17-cea2-4183-9e62-b329ef31ad25" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9c6b053628ed213be2b7a83134a945dd.png" xmlns="">0a5-3JAmFkkSmOzX_tWITyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

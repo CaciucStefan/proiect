@@ -1,0 +1,407 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="altex" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="altex_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="altex" sap:VirtualizedContainerService.HintSize="897.2,5934.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="variable3" />
+      <Variable x:TypeArguments="x:Boolean" Name="foundAllWords" />
+      <Variable x:TypeArguments="x:String" Name="inputText" />
+      <Variable x:TypeArguments="x:String" Name="variable1" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="620.8,5911.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="variable2" />
+        <Variable x:TypeArguments="x:Int32" Default="0" Name="dex" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Assign sap:VirtualizedContainerService.HintSize="587.2,174.4" sap2010:WorkflowViewState.IdRef="Assign_2">
+        <Assign.To>
+          <OutArgument x:TypeArguments="scg:List(x:String)">[pretaltex]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <Assign sap:VirtualizedContainerService.HintSize="587.2,174.4" sap2010:WorkflowViewState.IdRef="Assign_3">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[dex]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">0</InArgument>
+        </Assign.Value>
+      </Assign>
+      <Assign sap:VirtualizedContainerService.HintSize="587.2,174.4" sap2010:WorkflowViewState.IdRef="Assign_9">
+        <Assign.To>
+          <OutArgument x:TypeArguments="scg:List(x:String)">[GlobalVariablesNamespace.GlobalVariables.linkaltex]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Electronice si electrocasnice online la" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="587.2,5304.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="28564074-b1fd-41f3-b6c7-227a95a6f0b6" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="553.6,5064.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each phrase" sap:VirtualizedContainerService.HintSize="520,5003.2" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[GlobalVariablesNamespace.GlobalVariables.wordsarray]">
+                <ui:ForEach.Body>
+                  <ActivityAction x:TypeArguments="x:String">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:String" Name="phrase" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518.4,4880" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="link" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="28564074-b1fd-41f3-b6c7-227a95a6f0b6" Text="[phrase]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="altex.ro/home" CVScreenId="ba0900f1-960c-47c8-94b2-44cadd3c3043" ContentHash="xJJlnitStESWFG9dOTYA8Q" CvElementArea="384, 180, 803, 67" CvType="InputBox" DesignTimeRectangle="387, 182, 800, 64" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="3352bb11-0cdf-42f0-9126-c4883e3ca090" InformativeScreenshot="aa63278cc6a576b486a201e95b43d0c2.png" Reference="Anefho2HdEmV084iFinhKQ/eycu9_L4lUOEX6dSDmz_vA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Electronice si electrocasnice online la cel mai mic pret' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="28564074-b1fd-41f3-b6c7-227a95a6f0b6" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="altex.ro/home" CVScreenId="3d564cfc-bc31-45a7-8e98-9cd77c41f31a" ContentHash="mrpH13Y5akSUpldTUeIrUw" CvElementArea="382, 124, 804, 67" CvType="InputBox" DesignTimeRectangle="1124, 141, 57, 34" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Cauta' tag='BUTTON' type='submit' /&gt;" Guid="72fda730-a5c1-430a-935d-b6674f45bf8a" InformativeScreenshot="5b233f409da20251b815ab292aac3548.png" Reference="Anefho2HdEmV084iFinhKQ/_kr-vSt9S02UUuzYFH-UKw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Electronice si electrocasnice online la cel mai mic pret' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Solid-State Drive (SSD)…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="28564074-b1fd-41f3-b6c7-227a95a6f0b6" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="altex.ro/cauta" ContentHash="YjA5_8Cqq0mfo7SKLkji1g" DesignTimeRectangle="497, 635, 291, 573" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div' parentid='__next' tag='DIV' /&gt;" Guid="f02954d5-4137-40e5-a682-7a3a6518eea6" InformativeScreenshot="906a89cd3b8c099db8e658cbca977714.png" Reference="Anefho2HdEmV084iFinhKQ/2Zjpf4Y9VUO3hvf_VM64og" ScopeSelectorArgument="&lt;html app='msedge.exe' title='solid state drive kingston a400 240gb - ALTEX' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NGetText DisplayName="Get Text '193,05 lei'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,189.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="28564074-b1fd-41f3-b6c7-227a95a6f0b6" TextString="[variable1]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="altex.ro/solid-state-drive-ssd-kingston-a400-240gb-sata3-2-5-sa400s37-240g/cpd/SSDSA400S37240G" CVScreenId="ce42c73b-d1ab-48ed-8574-6a25dff4a510" ContentHash="zlIq0c24yEy3zWlqcJTW3g" CvType="AnyWordGroup" DesignTimeRectangle="1122, 531, 184, 58" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' parentid='__next' tag='SPAN' /&gt;" Guid="8f9f2d79-b4f8-4cb3-b86b-28362559c370" InformativeScreenshot="e90f3b56f728b7fd3c827ef584194eaa.png" Reference="Anefho2HdEmV084iFinhKQ/BM6QBD-1Hk2jBgZptZ3vJQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Solid-State Drive (SSD) KINGSTON A400, 240GB, SATA3, 2.5&amp;quot;, SA400S37/240G' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <uix:NGetText DisplayName="Get Text 'Mouse Gaming Wireless L…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,189.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="28564074-b1fd-41f3-b6c7-227a95a6f0b6" TextString="[inputText]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="altex.ro/mouse-gaming-wireless-logitech-g305-lightspeed-12000-dpi-negru/cpd/GAM910005282" CVScreenId="cbf6e0aa-3fd4-40d0-9ad2-8c83d762411e" ContentHash="Jrx0NLC5M068R0YRms2k7g" CvType="AnyWordGroup" DesignTimeRectangle="185, 418, 1550, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="77ea8ac0-b109-4d0b-b25f-823aa3d6ed69" InformativeScreenshot="8e21481c55bf837808c19e85b4816186.png" Reference="Anefho2HdEmV084iFinhKQ/5nISwJTPuEGAeku-E7zlrQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mouse Gaming Wireless LOGITECH G305 Lightspeed, 12000 dpi, negru' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Got text: [&quot; + inputText + &quot;]&quot;]" />
+                      <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Defensive check&#xA;If String.IsNullOrEmpty(inputText) Then&#xA;    Throw New Exception(&quot;inputText is empty&quot;)&#xA;End If&#xA;&#xA;If String.IsNullOrEmpty(phrase) Then&#xA;    Throw New Exception(&quot;phrase is empty&quot;)&#xA;End If&#xA;&#xA;Console.WriteLine(&quot;InputText: [&quot; &amp; inputText &amp; &quot;]&quot;)&#xA;Console.WriteLine(&quot;Phrase: [&quot; &amp; phrase &amp; &quot;]&quot;)&#xA;&#xA;' Normalize input text: lowercase, trim, replace non-alphanumeric chars with spaces&#xA;Dim cleanInput As String = System.Text.RegularExpressions.Regex.Replace(inputText.ToLower(), &quot;[^a-z0-9]+&quot;, &quot; &quot;).Trim()&#xA;cleanInput = System.Text.RegularExpressions.Regex.Replace(cleanInput, &quot;\s+&quot;, &quot; &quot;)&#xA;&#xA;' Split inputText into words&#xA;Dim inputWords() As String = cleanInput.Split(&quot; &quot;c)&#xA;&#xA;' Split phrase into words&#xA;Dim cleanPhrase As String = System.Text.RegularExpressions.Regex.Replace(phrase.ToLower(), &quot;[^a-z0-9]+&quot;, &quot; &quot;).Trim()&#xA;Dim phraseWords() As String = cleanPhrase.Split(&quot; &quot;c)&#xA;&#xA;foundAllWords = True&#xA;&#xA;' Check that each word in phrase exists in inputText&#xA;For Each pw As String In phraseWords&#xA;    If Not inputWords.Contains(pw) Then&#xA;        foundAllWords = False&#xA;        Exit For&#xA;    End If&#xA;Next&#xA;" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="484.8,196.8" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+                        <ui:InvokeCode.Arguments>
+                          <InArgument x:TypeArguments="x:String" x:Key="inputText">[inputText]</InArgument>
+                          <OutArgument x:TypeArguments="x:Boolean" x:Key="foundAllWords">[foundAllWords]</OutArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="phrase">[phrase]</InArgument>
+                        </ui:InvokeCode.Arguments>
+                      </ui:InvokeCode>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[foundAllWords]" />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;After Invoke: [&quot; + inputText + &quot;]&quot;]" />
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484.8,279.2" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,168.8" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[variable1]" />
+                          </Sequence>
+                        </ui:CommentOut.Body>
+                      </ui:CommentOut>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[variable1]" />
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_5">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[variable2]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">[variable1.Split(" "c)(0)]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <If Condition="[foundAllWords=False]" sap:VirtualizedContainerService.HintSize="484.8,453.6" sap2010:WorkflowViewState.IdRef="If_2">
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_8">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[variable2]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">[”0”]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_7">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[variable2]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">[variable2.Replace(",", ".")]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="scg:List(x:String)">[pretaltex]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="scg:List(x:String)">[pretaltex.Append(variable2).ToList()]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'httpsaltex.romouse-…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="28564074-b1fd-41f3-b6c7-227a95a6f0b6" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="altex.ro/solid-state-drive-ssd-kingston-a400-480gb-sata3-2-5-sa400s37-480g/cpd/SSDSA400S37480G" CVScreenId="8d95d06b-2a31-45a2-a7c1-b7ca3dee6316" ContentHash="NBbV01jRL0OHCUl6JZ4fqQ" CvElementArea="99, 55, 1572, 41" CvType="InputBox" DesignTimeRectangle="146, 59, 1417, 35" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="45e955bb-f124-471e-a6fd-d3642c6706ae" ImageBase64="" InformativeScreenshot="798ab5f6c39a17bbe46818650f70a9e8.png" Reference="Anefho2HdEmV084iFinhKQ/tQOpPGxFFkmaB8xkPEZedQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="8d95d06b-2a31-45a2-a7c1-b7ca3dee6316" CvElementArea="99, 55, 1572, 41" CvType="InputBox" DesignTimeRectangle="114, 59, 30, 35" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='View site information' role='menu button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='View site information' /&gt;" Guid="05fb5797-cab0-4c8b-9a5a-d5e9c146d4d9" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NGetText DisplayName="Get Text 'httpsaltex.romouse-…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,189.6" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="28564074-b1fd-41f3-b6c7-227a95a6f0b6" TextString="[link]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="altex.ro/solid-state-drive-ssd-kingston-a400-480gb-sata3-2-5-sa400s37-480g/cpd/SSDSA400S37480G" CVScreenId="564b52b9-5e72-4e63-b5c5-e7e8d4db48a4" ContentHash="1SKuY6IO9Eu4neDILnAcoQ" CvType="AnyWordGroup" DesignTimeRectangle="165, 59, 1498, 35" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="374759f8-09cc-4acf-b57c-0c6d5b98fdfc" InformativeScreenshot="856f94076505dcc193929fa78ba2a268.png" Reference="Anefho2HdEmV084iFinhKQ/baOEoCsMQUa0xb32fvoixw" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="564b52b9-5e72-4e63-b5c5-e7e8d4db48a4" CvElementArea="128, 65, 26, 25" CvType="ArrowButton" DesignTimeRectangle="126, 59, 30, 35" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='View site information' role='menu button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='View site information' /&gt;" Guid="685d0acc-0dc4-45a8-8f3f-d749786ad332" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[link]" />
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484.8,279.2" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,168.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[link]" />
+                          </Sequence>
+                        </ui:CommentOut.Body>
+                      </ui:CommentOut>
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_10">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="scg:List(x:String)">[linkaltex]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="scg:List(x:String)">[linkaltex.Append(link).ToList()]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_4">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Int32">[dex]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Int32">[dex+1]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <If Condition="[dex=5]" sap:VirtualizedContainerService.HintSize="484.8,327.2" sap2010:WorkflowViewState.IdRef="If_1">
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,108" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:Break sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Break_1" />
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEach.Body>
+              </ui:ForEach>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="ednAVXsqrEKL72jb8vriIA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGuSURBVDhPlZM9SxxRFIanN4WFFgnkL4gE7C0ikSiaNFYiYlKJpAqCSRMlYBHFIilUEC0DKYKgYKc7ErKKuBIiZtfdfPix+BndXXadmb33PuHOuqPjzkB84VbnnOec9957DMMwDMAEJP8vnWvq2nJxiNTlCZWpAcGdlQDrBJwMqFCI1IBK6eJCGuLvYOcj2H9BBfcJBjhZSE3C1w5Y7YL0PAjrZparYIAqQv43bA5CaqJk5VYTaIZjI462EWdplBA3w54CAdKyycbibPWOkHw1TuFXOKQCoIQkn9hlrbGPxaqHLFU/YvPZMPbBaeBr+AEKnNMMiZcfiNQ8Jtbaz8qDHsy7bexPzyPyF750LR9Aj374OYJ5r51ofTeZtR8cz31h+f5TonVdZNfjFVY8gJJ69B1WGp4TqW1hb3IWWbDcieIvxlwr3zuHsI/0n7iy4gGK5zm2ekdZvNPExpMBrLR+uhI49y3pTrBU3exakRe2DyA10T4+4+fbGVJvpsjGEu5lliUth5OFKMnXE/x5/4liruCFvGXSnXSiPteLy1JFUYrbznULvo2srAqXt87/ABvBr69+TL+1AAAAAElFTkSuQmCC" InformativeScreenshot="2449caa79309e6dc88323c4d52b451df.jpg" Reference="Anefho2HdEmV084iFinhKQ/Wm9E6rEzBkC5wFgrHwj4dQ" Selector="&lt;html app='msedge.exe' title='Electronice si electrocasnice online la cel mai mic pret' /&gt;" Url="https://altex.ro/home/" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

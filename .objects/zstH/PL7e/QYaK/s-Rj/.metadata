@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Caută",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "s-Rj2EExI0S41BCCjZPBLw",
+  "Reference": "Anefho2HdEmV084iFinhKQ/s-Rj2EExI0S41BCCjZPBLw",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/QYaKi0IkAka1H7LzlMS-zA",
+  "Created": "2025-08-25T23:26:40.5439921Z",
+  "Updated": "2025-08-25T23:26:40.5439921Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

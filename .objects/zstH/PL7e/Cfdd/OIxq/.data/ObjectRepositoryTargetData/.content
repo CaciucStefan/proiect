@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HrOCtYHFmUmvuYrGPniudA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="altex.ro/cauta" CVScreenId="438708fc-5664-4a0d-9f7d-98353593b2fe" CvElementArea="491, 392, 280, 61" CvType="InputBox" DesignTimeRectangle="494, 395, 275, 55" ElementType="DropDown" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" Guid="8969165f-3f80-4b34-b261-1a645178b68e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='mouse - ALTEX' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0d2eb54d1c1b99a428a3554a33e07d68.png" xmlns="">0EBIn2Aa0lkW_JHSZ0dST8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

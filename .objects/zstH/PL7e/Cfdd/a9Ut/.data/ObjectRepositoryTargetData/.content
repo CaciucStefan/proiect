@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Lt0HEG6nHEaRcffAGx8ovA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emag.ro/solid-state-drive-ssd-kingston-a400-960gb-2-5-sata-iii-sa400s37-960g/pd/D39WYFBBM" CVScreenId="e46059bf-d36f-4183-8b80-f34d1cc0d992" CvType="AnyWordGroup" DesignTimeRectangle="210, 347, 746, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="f3bf57b9-4517-4254-aaa2-4c0a83cb2b6c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Solid State Drive (SSD) Kingston A400, 960GB, 2.5&amp;quot;, SATA III - eMAG.ro' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d466f64662f72ba10f531fdd3e67e941.png" xmlns="">0377lGafHu0SeIi0mHfVJeA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

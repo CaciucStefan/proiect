@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cuCQLW_9j0yZu1LM2mq5PQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emag.ro/ssd-adata-ultimate-su630-480gb-2-5-sata-520mb-s-x-450mb-s-asu630ss-480gq-r/pd/DM8S66YBM" CVScreenId="fad723cd-47a0-4238-ad15-d3c379fc11ba" CvType="AnyWordGroup" DesignTimeRectangle="1251, 432, 128, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='product-new-price' parentid='main-container' tag='P' /&gt;" Guid="ddb6c2fb-63ca-4b4e-b1da-470928a735a9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SSD ADATA Ultimate SU630, 480GB, 2.5&amp;quot;, SATA, 520MB/s x 450MB/s - eMAG.ro' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bf11be5fdd05f8558b189330e0209553.png" xmlns="">0gpqcm9_BX0C1XFhGZfEiag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

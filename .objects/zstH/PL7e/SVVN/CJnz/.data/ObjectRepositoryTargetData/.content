@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Okz-H54d50e6aqYbChYF1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="emag.ro/search/samsung" CVScreenId="ede1c85d-326d-4498-b0a3-332b59c9d301" CvType="AnyWordGroup" DesignTimeRectangle="526, 612, 102, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl class='product-new-price' parentid='card_grid' tag='P' /&gt;" Guid="a7d8ada0-d906-4b76-9d5c-4df1c0a3adce" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauți samsung? Alege din oferta eMAG.ro' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="856c57dfec173713b85b9ce3b1b708f5.png" xmlns="">0GBbLk4U9hkimcFHjGFb_EA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Inbox (3) - ndnu861@gmail.com - Gmail",
+  "Type": "Screen",
+  "Id": "t8A6Pf0QNEGYGWY0HgAefA",
+  "Reference": "Anefho2HdEmV084iFinhKQ/t8A6Pf0QNEGYGWY0HgAefA",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/PL7e2aqRY0Ow8jDuNZnyfw",
+  "Created": "2025-09-23T21:57:44.9504159Z",
+  "Updated": "2025-09-23T21:57:44.9504159Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Jrx0NLC5M068R0YRms2k7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="altex.ro/mouse-gaming-wireless-logitech-g305-lightspeed-12000-dpi-negru/cpd/GAM910005282" CVScreenId="cbf6e0aa-3fd4-40d0-9ad2-8c83d762411e" CvType="AnyWordGroup" DesignTimeRectangle="185, 418, 1550, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="77ea8ac0-b109-4d0b-b25f-823aa3d6ed69" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Mouse Gaming Wireless LOGITECH G305 Lightspeed, 12000 dpi, negru' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8e21481c55bf837808c19e85b4816186.png" xmlns="">0U-5AwX9MNUmz_q4WawMz2A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

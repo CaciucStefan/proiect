@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mrpH13Y5akSUpldTUeIrUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="altex.ro/home" CVScreenId="3d564cfc-bc31-45a7-8e98-9cd77c41f31a" CvElementArea="382, 124, 804, 67" CvType="InputBox" DesignTimeRectangle="1124, 141, 57, 34" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Cauta' tag='BUTTON' type='submit' /&gt;" Guid="72fda730-a5c1-430a-935d-b6674f45bf8a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Electronice si electrocasnice online la cel mai mic pret' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5b233f409da20251b815ab292aac3548.png" xmlns="">03O5VJoLABk2QH9i1uO6Kiw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

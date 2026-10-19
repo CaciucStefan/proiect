@@ -1,0 +1,13 @@
+﻿{
+  "Name": "PRP 303,99 Lei 266,71 …",
+  "Type": "Element",
+  "Id": "tb7SI45OqU-iyJpShz4t-Q",
+  "Reference": "Anefho2HdEmV084iFinhKQ/tb7SI45OqU-iyJpShz4t-Q",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/QYaKi0IkAka1H7LzlMS-zA",
+  "Created": "2025-08-31T15:13:04.7336429Z",
+  "Updated": "2025-08-31T15:13:04.7336429Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

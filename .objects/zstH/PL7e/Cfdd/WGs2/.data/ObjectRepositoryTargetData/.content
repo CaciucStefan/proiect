@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0_aK-cUMR06yuj8x0h0bnQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vexio.ro/search" CVScreenId="261e0c0e-c113-488b-b655-afabf37f6d1e" CvElementArea="716, 433, 204, 41" CvType="InputBox" DesignTimeRectangle="718, 434, 200, 38" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a860fa52-70f3-4334-9ff9-38a3933759b2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: Logitech G305' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="261e0c0e-c113-488b-b655-afabf37f6d1e" CvTextArea="547, 442, 145, 24" CvTextArgument="Sortează după:" CvType="Text" DesignTimeRectangle="549, 438, 144, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' type='' aaname='Sortează după: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sortează după:' /&gt;" Guid="7eeb12ef-5cfe-41cf-995b-4510f73eda6c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ae40218997ac00040ad6db5161eaf91c.png" xmlns="">0hcuasA6VQ0OrCqe-FoiLWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

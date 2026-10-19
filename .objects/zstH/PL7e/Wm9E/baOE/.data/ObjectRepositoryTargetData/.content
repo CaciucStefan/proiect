@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1SKuY6IO9Eu4neDILnAcoQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="altex.ro/solid-state-drive-ssd-kingston-a400-480gb-sata3-2-5-sa400s37-480g/cpd/SSDSA400S37480G" CVScreenId="564b52b9-5e72-4e63-b5c5-e7e8d4db48a4" CvType="AnyWordGroup" DesignTimeRectangle="165, 59, 1498, 35" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="374759f8-09cc-4acf-b57c-0c6d5b98fdfc" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="564b52b9-5e72-4e63-b5c5-e7e8d4db48a4" CvElementArea="128, 65, 26, 25" CvType="ArrowButton" DesignTimeRectangle="126, 59, 30, 35" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Solid-State Drive (SSD) KINGSTON A400, 480GB, SATA3, 2.5&amp;quot;, SA400*' role='pane' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='View site information' role='menu button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='View site information' /&gt;" Guid="685d0acc-0dc4-45a8-8f3f-d749786ad332" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="856f94076505dcc193929fa78ba2a268.png" xmlns="">0uNzg3xKyHkOWj5PjyF7jKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YHzbJUywSku5EOYyx6a2Sw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="da354573-4a59-42c6-a78f-6830220c020b" CvTextArea="387, 186, 106, 20" CvTextArgument="Search mail" CvType="Text" DesignTimeRectangle="334, 167, 900, 60" ElementType="Container" FullSelectorArgument="&lt;webctrl id='aso_search_form_anchor' tag='FORM' /&gt;" Guid="30039f2a-4892-400a-aaf1-f456176e1ee4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Inbox (3) - ndnu861@gmail.com - Gmail' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a34cfbfbbf0d606dd52934d491a3f270.png" xmlns="">0pHZgY2rqM0ic_gw8_KEOYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

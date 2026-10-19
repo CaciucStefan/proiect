@@ -1,0 +1,14 @@
+﻿{
+  "Name": "httpswww.vexio.rose…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "6CScAOmnWUGKckXHIQAsfg",
+  "Reference": "Anefho2HdEmV084iFinhKQ/6CScAOmnWUGKckXHIQAsfg",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/dXDKSy048UO8MX4EYxIbzA",
+  "Created": "2025-09-28T19:18:17.3051122Z",
+  "Updated": "2025-09-28T19:18:17.3051122Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "1.368,99 Lei",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "CJnzikzSr0G5M0ycIKIkTQ",
+  "Reference": "Anefho2HdEmV084iFinhKQ/CJnzikzSr0G5M0ycIKIkTQ",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/SVVNQI9XKkyxgyf_2rBIRg",
+  "Created": "2025-08-25T23:42:22.1534602Z",
+  "Updated": "2025-08-25T23:42:22.1534602Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

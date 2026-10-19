@@ -1,0 +1,517 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="vexio_nou" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="vexio_nou_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Windows.Documents</x:String>
+      <x:String>System.Windows.Media.Animation</x:String>
+      <x:String>System.Windows</x:String>
+      <x:String>System.Windows.Threading</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationUI</AssemblyReference>
+      <AssemblyReference>System.Windows.Presentation</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="vexio_nou" sap:VirtualizedContainerService.HintSize="897.2,5988" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="foundAllWords" />
+      <Variable x:TypeArguments="x:String" Name="inputText" />
+      <Variable x:TypeArguments="x:String" Name="variable2" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="dexi" />
+      <Variable x:TypeArguments="x:String" Name="variable1" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="620.8,5964.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="link" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Assign sap:VirtualizedContainerService.HintSize="587.2,174.4" sap2010:WorkflowViewState.IdRef="Assign_2">
+        <Assign.To>
+          <OutArgument x:TypeArguments="scg:List(x:String)">[pretvexio]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <Assign sap:VirtualizedContainerService.HintSize="587.2,174.4" sap2010:WorkflowViewState.IdRef="Assign_3">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[dexi]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">0</InArgument>
+        </Assign.Value>
+      </Assign>
+      <Assign sap:VirtualizedContainerService.HintSize="587.2,174.4" sap2010:WorkflowViewState.IdRef="Assign_7">
+        <Assign.To>
+          <OutArgument x:TypeArguments="scg:List(x:String)">[GlobalVariablesNamespace.GlobalVariables.linkvexio]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Vexio - Online, mereu mai ieftin! Peste" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="587.2,5358.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="d1196186-447a-4be9-b2a7-4afea9bce79a" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="553.6,5118.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each phrase" sap:VirtualizedContainerService.HintSize="520,5056.8" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[GlobalVariablesNamespace.GlobalVariables.wordsarray]">
+                <ui:ForEach.Body>
+                  <ActivityAction x:TypeArguments="x:String">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:String" Name="phrase" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518.4,4933.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''INPUT search-box''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" Text="[phrase]" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="vexio.ro" CVScreenId="2ff23876-5e4e-45df-ac12-1dbe1e046cbd" ContentHash="SiVb-MCHk02VfkF7_adaVw" CvTextArea="679, 274, 103, 16" CvTextArgument="Ce cauti azi?" CvType="Text" DesignTimeRectangle="665, 261, 478, 43" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search-box' tag='INPUT' /&gt;" Guid="439ea17f-528d-4b63-b11f-c4cd25b8be51" InformativeScreenshot="7056a32889b292f2e07f5d66ead15350.png" Reference="Anefho2HdEmV084iFinhKQ/vKI56NrrGUGownpdvJucMg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Vexio - Online, mereu mai ieftin! Peste 350.000 de produse pe site!' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Cauta''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="vexio.ro/search" CVScreenId="b92dddb0-b49d-4d38-add8-68a7abab2258" CvElementArea="1141, 260, 116, 45" CvTextArea="1179, 272, 61, 18" CvTextArgument="CAUTA" CvType="Button" DesignTimeRectangle="1143, 263, 111, 40" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-primary text-uppercase' aaname='Cauta' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='CAUTA' /&gt;" Guid="653cf108-1f97-4432-8ea8-cfd9a8d0acb7" InformativeScreenshot="a773e046e4f6ffd687a41c5b2cb524fd.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='mouse. Rezultate cautare mouse' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484.8,387.2" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,276.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click ''Kingston SSD A400 240GB…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="vexio.ro/search" CVScreenId="0cc8c8d1-d5e8-47b4-bd77-21b87bdc7c39" CvElementArea="556, 664, 193, 121" CvType="Icon" DesignTimeRectangle="559, 641, 187, 162" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='product_box_163767' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='product_box_163767' tag='IMG' type='' class='img-responsive' aaname='Kingston SSD A400 240GB, SATA3, 2.5inch' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="eb35ea09-d619-4a94-8945-65915baac8f5" ImageBase64="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" InformativeScreenshot="3e709d85e0b876f7f9b2a3c6fe68f3f7.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: SSD KINGSTON A400 240GB' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="559, 815, 218, 39" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Kingston SSD A400 240GB, SATA3, 2.5inch &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_163767' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Kingston SSD A400 240GB, SATA3, 2.5inch &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_163767' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Kingston SSD A400 240GB, SATA3, 2.5inch' /&gt;" Guid="78c700d4-a168-4123-8b54-cc646a11e62c" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                  <uix:TargetAnchorable.PointOffset>
+                                    <uix:PointOffset />
+                                  </uix:TargetAnchorable.PointOffset>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                          </Sequence>
+                        </ui:CommentOut.Body>
+                      </ui:CommentOut>
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484.8,387.2" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,276.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click ''Logitech Mouse G305 Lig…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="vexio.ro/search" DesignTimeRectangle="559, 815, 208, 58" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Logitech Mouse G305 Lightspeed, USB Wireless, Black &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_324453' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Logitech Mouse G305 Lightspeed, USB Wireless, Black &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_324453' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Logitech Mouse G305 Lightspeed, USB Wireless, Black' /&gt;" Guid="45140a6c-1931-4607-aaf8-bd3ca7941f0e" InformativeScreenshot="520359632f9058ca616afadfbf85c0fd.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: Logitech G305' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+                                  <uix:TargetAnchorable.PointOffset>
+                                    <uix:PointOffset />
+                                  </uix:TargetAnchorable.PointOffset>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                          </Sequence>
+                        </ui:CommentOut.Body>
+                      </ui:CommentOut>
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484.8,387.2" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,276.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click ''Kingston SSD A400 120GB…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="vexio.ro/search" DesignTimeRectangle="559, 641, 187, 162" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='product_box_331563' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='product_box_331563' tag='IMG' type='' class='img-responsive' aaname='Kingston SSD A400 120GB M.2 2280' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fb145837-5f77-4519-896c-1ba21dc25ae4" InformativeScreenshot="54d572777824aa30abe18fcd91383e60.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: SSD KINGSTON A400 120GB' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="559, 815, 213, 39" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Kingston SSD A400 120GB M.2 2280 &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_331563' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Kingston SSD A400 120GB M.2 2280 &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_331563' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Kingston SSD A400 120GB M.2 2280' /&gt;" Guid="52cb6d90-1041-4079-8ed7-a89a9a91a937" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                  <uix:TargetAnchorable.PointOffset>
+                                    <uix:PointOffset />
+                                  </uix:TargetAnchorable.PointOffset>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                          </Sequence>
+                        </ui:CommentOut.Body>
+                      </ui:CommentOut>
+                      <uix:NGetText DisplayName="Get Text 'Logitech Mouse G305 Lig…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,189.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" TextString="[inputText]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="vexio.ro/search" ContentHash="8exIBdgpGU-7tofDL_FrDw" DesignTimeRectangle="559, 816, 246, 56" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='product_box_324453' tag='H2' /&gt;" FuzzyAccuracy="0.71" FuzzySelectorArgument="&lt;webctrl parentid='product_box_324453' tag='H2' type='' class='h5 name' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cceddd6d-1587-414f-8d06-fecb9c783a95" ImageBase64="" InformativeScreenshot="9c6b053628ed213be2b7a83134a945dd.png" Reference="Anefho2HdEmV084iFinhKQ/P6NJr79_pUCqH0Fr8z-rww" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: Logitech G305' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="9a882cbf-f086-498d-926e-83dd20f16455" CvTextArea="547, 579, 145, 22" CvTextArgument="Sortează după:" CvType="Text" DesignTimeRectangle="549, 574, 144, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' type='' aaname='Sortează după: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sortează după:' /&gt;" Guid="51cb5a17-cea2-4183-9e62-b329ef31ad25" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Got text: [&quot; + inputText + &quot;]&quot;]" />
+                      <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Defensive check&#xA;If String.IsNullOrEmpty(inputText) Then&#xA;    Throw New Exception(&quot;inputText is empty&quot;)&#xA;End If&#xA;&#xA;If String.IsNullOrEmpty(phrase) Then&#xA;    Throw New Exception(&quot;phrase is empty&quot;)&#xA;End If&#xA;&#xA;Console.WriteLine(&quot;InputText: [&quot; &amp; inputText &amp; &quot;]&quot;)&#xA;Console.WriteLine(&quot;Phrase: [&quot; &amp; phrase &amp; &quot;]&quot;)&#xA;&#xA;' Normalize input text: lowercase, trim, replace non-alphanumeric chars with spaces&#xA;Dim cleanInput As String = System.Text.RegularExpressions.Regex.Replace(inputText.ToLower(), &quot;[^a-z0-9]+&quot;, &quot; &quot;).Trim()&#xA;cleanInput = System.Text.RegularExpressions.Regex.Replace(cleanInput, &quot;\s+&quot;, &quot; &quot;)&#xA;&#xA;' Split inputText into words&#xA;Dim inputWords() As String = cleanInput.Split(&quot; &quot;c)&#xA;&#xA;' Split phrase into words&#xA;Dim cleanPhrase As String = System.Text.RegularExpressions.Regex.Replace(phrase.ToLower(), &quot;[^a-z0-9]+&quot;, &quot; &quot;).Trim()&#xA;Dim phraseWords() As String = cleanPhrase.Split(&quot; &quot;c)&#xA;&#xA;foundAllWords = True&#xA;&#xA;' Check that each word in phrase exists in inputText&#xA;For Each pw As String In phraseWords&#xA;    If Not inputWords.Contains(pw) Then&#xA;        foundAllWords = False&#xA;        Exit For&#xA;    End If&#xA;Next&#xA;" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="484.8,196.8" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+                        <ui:InvokeCode.Arguments>
+                          <OutArgument x:TypeArguments="x:Boolean" x:Key="foundAllWords">[foundAllWords]</OutArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="inputText">[inputText]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="phrase">[phrase]</InArgument>
+                        </ui:InvokeCode.Arguments>
+                      </ui:InvokeCode>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[foundAllWords]" />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;After Invoke: [&quot; + inputText + &quot;]&quot;]" />
+                      <uix:NGetText ContinueOnError="True" DisplayName="Get Text '6,99 lei'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" TextString="[variable1]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="vexio.ro/search" CVScreenId="fab3d58c-28ca-447b-b349-33c492a4e61f" ContentHash="risN6pGcVEiLi5TfST1pLg" CvType="AnyWordGroup" DesignTimeRectangle="559, 986, 100, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;230.99 lei &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_324453' tag='SPAN' /&gt;" FuzzyAccuracy="0.75" Guid="11f106c2-50b8-495b-bd17-1e7f568d9f2d" ImageBase64="" InformativeScreenshot="6dabbb0909a4b1ce46ee39e6544244c8.png" Reference="Anefho2HdEmV084iFinhKQ/S9qcVCqhcUuJm182JTtj-Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: Logitech G305' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                                <uix:Target CVScreenId="fab3d58c-28ca-447b-b349-33c492a4e61f" CvTextArea="547, 579, 145, 22" CvTextArgument="Sortează după:" CvType="Text" DesignTimeRectangle="549, 574, 144, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='lb-sorts__title' parentid='lb-search-element' tag='DIV' type='' aaname='Sortează după: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sortează după:' /&gt;" Guid="e5d813a7-dc69-4cd6-bc74-426d85039c9e" SearchSteps="Selector, FuzzySelector, CV" />
+                                <uix:Target CVScreenId="fab3d58c-28ca-447b-b349-33c492a4e61f" CvTextArea="846, 987, 102, 20" CvTextArgument="229.99 lei" CvType="Text" DesignTimeRectangle="849, 982, 100, 34" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;article&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='product_box_746841' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='product_box_746841' tag='DIV' class='price-value text-left inline-block' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='229.99 lei' /&gt;" Guid="4cdbe4be-388d-43bf-a0d4-3411151798f1" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484.8,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[variable1]" />
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_5">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[variable2]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">[variable1.Trim.Split(" "c)(0)]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <If Condition="[foundAllWords=False]" sap:VirtualizedContainerService.HintSize="484.8,453.6" sap2010:WorkflowViewState.IdRef="If_2">
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_6">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[variable1]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">[”0”]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="scg:List(x:String)">[pretvexio]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="scg:List(x:String)">[pretvexio.Append(variable2).ToList()]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <If Condition="[Not System.Text.RegularExpressions.Regex.IsMatch(pretvexio.Last(), &quot;^\d+(\.\d+)?$&quot;)]" sap:VirtualizedContainerService.HintSize="468.8,903.2" sap2010:WorkflowViewState.IdRef="If_3">
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="467.2,707.2" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NGetText DisplayName="Get Text 'Sortează după'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" TextString="[variable1]" Version="V5">
+                              <uix:NGetText.Target>
+                                <uix:TargetAnchorable BrowserURL="vexio.ro/search" CVScreenId="9892bc92-f868-4ed4-b4a6-b77e5990df34" ContentHash="wiWpMaBOt0SGSPKGeNQ09w" DesignTimeRectangle="559, 986, 100, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;159.99 lei &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='product_box_331625' tag='SPAN' /&gt;" Guid="da0da736-4a30-4f41-aed7-445c514c1737" ImageBase64="" InformativeScreenshot="147925524a0c4de62a6754164e2a7a4c.png" Reference="Anefho2HdEmV084iFinhKQ/6n32S-Sgp0ySc0SPToKpkw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cauta produse: SSD ADATA SU630 480GB' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                              </uix:NGetText.Target>
+                            </uix:NGetText>
+                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[variable1]" />
+                            <Assign sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="Assign_9">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[variable2]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">[variable1.Trim.Split(" "c)(0)]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <Assign sap:VirtualizedContainerService.HintSize="433.6,165.6" sap2010:WorkflowViewState.IdRef="Assign_10">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[pretvexio(pretvexio.Count - 1)]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">[variable2]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="467.2,89.6" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'httpswww.vexio.rose…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="vexio.ro/mouse/logitech/324453-g305-lightspeed-usb-wireless-black" CVScreenId="0ecac376-67d0-40c7-8c42-8b3cb86ae513" ContentHash="KJ_yiR5w2ESU2bmYEhLQEw" CvElementArea="98, 55, 1566, 41" CvType="InputBox" DesignTimeRectangle="146, 59, 1365, 35" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Mouse Logitech G305 Lightspeed, USB Wireless, Black Pret: 230,88*' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Mouse Logitech G305 Lightspeed, USB Wireless, Black Pret: 230,88*' role='pane' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="536b4b4d-6cff-407e-8b77-ae1a68d92ba8" InformativeScreenshot="580a4da79366cd9b7c1c4f098158c36f.png" Reference="Anefho2HdEmV084iFinhKQ/ZxBzNycXGECo2Y52GEu1dA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Mouse Logitech G305 Lightspeed, USB Wireless, Black Pret: 230,88*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NGetText DisplayName="Get Text 'httpswww.vexio.rose…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.8,189.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="d1196186-447a-4be9-b2a7-4afea9bce79a" TextString="[link]" Version="V5">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="vexio.ro/search" CVScreenId="17c1216c-cb11-4b19-9082-45136931766c" ContentHash="prBPHO9qn0OPB8Ty_kiVqg" CvType="AnyWordGroup" DesignTimeRectangle="165, 59, 1498, 35" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Cauta produse: Logitech G305 - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzyAccuracy="0.57" FuzzySelectorArgument="&lt;ctrl name='Cauta produse: Logitech G305 - Microsoft Edge' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="a86ca1a2-70fe-426c-8d1f-1d56d170f52d" ImageBase64="" InformativeScreenshot="e58b70ab2b4dec3f3391fe2816a0fb52.png" Reference="Anefho2HdEmV084iFinhKQ/6CScAOmnWUGKckXHIQAsfg" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Cauta produse: Logitech G305 - Profile 1 - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="17c1216c-cb11-4b19-9082-45136931766c" CvElementArea="126, 62, 31, 27" CvType="ArrowButton" DesignTimeRectangle="126, 59, 30, 35" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Cauta produse: Logitech G305 - Microsoft Edge' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='App bar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='View site information' role='menu button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='View site information' /&gt;" Guid="2b45c275-1634-4856-b2de-5a726943acbc" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484.8,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[link]" />
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,113.6" sap2010:WorkflowViewState.IdRef="Assign_8">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="scg:List(x:String)">[linkvexio]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="scg:List(x:String)">[linkvexio.Append(link).ToList()]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <Assign sap:VirtualizedContainerService.HintSize="484.8,113.6" sap2010:WorkflowViewState.IdRef="Assign_4">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Int32">[dexi]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Int32">[dexi+1]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <If Condition="[dexi=5]" sap:VirtualizedContainerService.HintSize="484.8,327.2" sap2010:WorkflowViewState.IdRef="If_1">
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,108" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:Break sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Break_1" />
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEach.Body>
+              </ui:ForEach>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="eAdS6h0VxEeYxiJaCG0Sxg" IconBase64="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" InformativeScreenshot="50cb5ee0a824588c32fe400bab123714.jpg" Reference="Anefho2HdEmV084iFinhKQ/dXDKSy048UO8MX4EYxIbzA" Selector="&lt;html app='msedge.exe' title='Vexio - Online, mereu mai ieftin! Peste 350.000 de produse pe site!' /&gt;" Url="https://www.vexio.ro/" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

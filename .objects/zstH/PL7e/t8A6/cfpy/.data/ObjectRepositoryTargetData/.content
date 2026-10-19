@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tqtdFgGyG0SwSOmQSQVlBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="mail.google.com/mail/u/0" CVScreenId="620fc5ba-6cb2-4aed-ae01-f01de4c22a7c" CvElementArea="330, 165, 901, 65" CvType="InputBox" DesignTimeRectangle="343, 176, 45, 45" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' parentid='aso_search_form_anchor' tag='svg' class='' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="742581e8-01c9-4e11-8f2c-4ba17a56b360" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Inbox (3) - ndnu861@gmail.com - Gmail' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="620fc5ba-6cb2-4aed-ae01-f01de4c22a7c" CvElementArea="330, 165, 901, 65" CvType="InputBox" DesignTimeRectangle="390, 186, 723, 25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;" Guid="a66f127b-d4e3-484e-9a53-9d09189c93f5" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bfb7eae84da1d06a8d3af5aa51bcc483.png" xmlns="">0ZMp_DBOq0EOCe2DjVav9dQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

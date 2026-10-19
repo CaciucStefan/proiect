@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cauta",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "o-vTiBis0kScrC3vjbA8KA",
+  "Reference": "Anefho2HdEmV084iFinhKQ/o-vTiBis0kScrC3vjbA8KA",
+  "ParentRef": "Anefho2HdEmV084iFinhKQ/CfddB4IRcUyg9b8ZEUKKkQ",
+  "Created": "2025-07-14T11:59:31.1864888Z",
+  "Updated": "2025-07-14T11:59:31.1864888Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zlIq0c24yEy3zWlqcJTW3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="altex.ro/solid-state-drive-ssd-kingston-a400-240gb-sata3-2-5-sa400s37-240g/cpd/SSDSA400S37240G" CVScreenId="ce42c73b-d1ab-48ed-8574-6a25dff4a510" CvType="AnyWordGroup" DesignTimeRectangle="1122, 531, 184, 58" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' parentid='__next' tag='SPAN' /&gt;" Guid="8f9f2d79-b4f8-4cb3-b86b-28362559c370" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Solid-State Drive (SSD) KINGSTON A400, 240GB, SATA3, 2.5&amp;quot;, SA400S37/240G' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e90f3b56f728b7fd3c827ef584194eaa.png" xmlns="">0Y5X8kmzrqkaI-oj6j-Gx-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
